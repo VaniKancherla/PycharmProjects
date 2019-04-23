@@ -1,0 +1,12 @@
+firstName = input("Enter First Name: ")
+lastName = input("Enter Last Name: ")
+#print('%s %s' % (firstName, lastName))
+#print(" ".join([firstName, lastName]))
+flword="{} {}".format(firstName, lastName)
+print("Entered 1st and Last Name: ", flword)
+inputWords = flword.split(" ")
+inputWords = inputWords[-1::-1]
+output = ' '.join(inputWords)
+#print(output)
+finalrev=' '.join(word[::-1] for word in output.split(" "))
+print("Reverse order of 1st and Last Name:", finalrev)
