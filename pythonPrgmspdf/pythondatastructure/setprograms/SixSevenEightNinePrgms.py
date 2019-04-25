@@ -1,5 +1,5 @@
-setA = {"a", "b", "c", "k"}
-setB = {"d", "e", "v", "k", "a"}
+setA = {"a", "b", "c", "k", "v"}
+setB = {"d", "e", "v", "k"}
 
 #to create an intersection of sets
 print("intersection of sets: ", setA & setB)

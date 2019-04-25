@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/pythondatastructure/stringprograms/FirstSecondFifthSixthPrgms.py" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcb81655-7068-4df9-8979-9ed2b302f8f3" name="Default Changelist" comment="" />
+    <list default="true" id="bcb81655-7068-4df9-8979-9ed2b302f8f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/listprograms/FourthPrgm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/listprograms/NineTenPrgms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/listprograms/OneTwoThreeSevenPrgms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/listprograms/SixEightPrgms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/listprograms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/stringprograms/EightNineTenPrgms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/stringprograms/FirstSecondFifthSixthPrgms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/stringprograms/SevenPrgm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/stringprograms/ThirdFourthPrgms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythondatastructure/stringprograms/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythondatastructure/dictionaryprograms/AddKeySecondPrgm.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythondatastructure/dictionaryprograms/AddKeySecondPrgm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythondatastructure/setprograms/CreateSetFrstPrgm.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythondatastructure/setprograms/CreateSetFrstPrgm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythondatastructure/setprograms/SixSevenEightNinePrgms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythondatastructure/setprograms/SixSevenEightNinePrgms.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,26 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythondatastructure/setprograms/SixSevenEightNinePrgms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythondatastructure/setprograms/CreateSetFrstPrgm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="42" lean-forward="true" selection-start-column="14" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +36,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,13 +64,26 @@
         <option value="$PROJECT_DIR$/dictionaryprograms/AddKeySecondPrgm.py" />
         <option value="$PROJECT_DIR$/dictionaryprograms/DicFifthPrgm.py" />
         <option value="$PROJECT_DIR$/pythondatastructure/arrayprograms/ArrayFirstPrgm.py" />
-        <option value="$PROJECT_DIR$/pythondatastructure/setprograms/CreateSetFrstPrgm.py" />
         <option value="$PROJECT_DIR$/pythondatastructure/dictionaryprograms/IteratorDicFourthPrgm.py" />
         <option value="$PROJECT_DIR$/pythondatastructure/setprograms/SetIterateSecndPrgm.py" />
         <option value="$PROJECT_DIR$/pythondatastructure/setprograms/AddMemInSetThirdPrgm.py" />
         <option value="$PROJECT_DIR$/pythondatastructure/setprograms/ThirdFourthFifthPrgms.py" />
         <option value="$PROJECT_DIR$/pythondatastructure/setprograms/ThirdFourthFifthTenPrgms.py" />
         <option value="$PROJECT_DIR$/pythondatastructure/setprograms/SixSevenEightNinePrgms.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/dictionaryprograms/AddKeySecondPrgm.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/setprograms/CreateSetFrstPrgm.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/listprograms/FourthPrgm.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/listprograms/SixEightPrgms.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/listprograms/OneTwoThreeSevenPrgms.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/listprograms/NineTenPrgms.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/stringprograms/FirstSecondPrgms.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/stringprograms/FirstSecondFifthPrgms.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/stringprograms/ThirdPrgm.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/stringprograms/ThirdFourthPrgms.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/stringprograms/FirstSecondFifthSixthPrgms.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/stringprograms/EightPrgm.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/stringprograms/SevenPrgm.py" />
+        <option value="$PROJECT_DIR$/pythondatastructure/stringprograms/EightNineTenPrgms.py" />
       </list>
     </option>
   </component>
@@ -77,13 +93,15 @@
     <option name="width" value="1279" />
     <option name="height" value="701" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <compactDirectories Scope="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -91,24 +109,15 @@
               <item name="pythonPrgmspdf" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/PycharmProjects/pythonPrgmspdf" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="pythonPrgmspdf" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/PycharmProjects/pythonPrgmspdf" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pythondatastructure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="pythonPrgmspdf" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/PycharmProjects/pythonPrgmspdf" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pythondatastructure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="setprograms" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pythondatastructure" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -129,8 +138,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SixSevenEightNinePrgms">
-    <configuration name="AddMemInSetThirdPrgm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.EightNineTenPrgms">
+    <configuration name="EightNineTenPrgms" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonPrgmspdf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/setprograms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/stringprograms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/setprograms/ThirdFourthFifthTenPrgms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/stringprograms/EightNineTenPrgms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ConcDicThirdPrgm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FirstSecondPrgms" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonPrgmspdf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +168,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/dictionaryprograms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/stringprograms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/dictionaryprograms/ConcDicThirdPrgm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/stringprograms/FirstSecondFifthSixthPrgms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="IteratorDicFourthPrgm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="NineTenPrgms" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonPrgmspdf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,11 +189,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/dictionaryprograms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/listprograms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/dictionaryprograms/IteratorDicFourthPrgm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/listprograms/NineTenPrgms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SetIterateSecndPrgm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SevenPrgm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonPrgmspdf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +210,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/setprograms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/stringprograms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/setprograms/SetIterateSecndPrgm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/stringprograms/SevenPrgm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SixSevenEightNinePrgms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ThirdPrgm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonPrgmspdf" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,11 +231,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/setprograms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythondatastructure/stringprograms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/setprograms/SixSevenEightNinePrgms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythondatastructure/stringprograms/ThirdFourthPrgms.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,11 +246,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SixSevenEightNinePrgms" />
-        <item itemvalue="Python.AddMemInSetThirdPrgm" />
-        <item itemvalue="Python.ConcDicThirdPrgm" />
-        <item itemvalue="Python.IteratorDicFourthPrgm" />
-        <item itemvalue="Python.SetIterateSecndPrgm" />
+        <item itemvalue="Python.SevenPrgm" />
+        <item itemvalue="Python.FirstSecondPrgms" />
+        <item itemvalue="Python.ThirdPrgm" />
+        <item itemvalue="Python.NineTenPrgms" />
       </list>
     </recent_temporary>
   </component>
@@ -260,15 +268,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2460815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1731975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3068182" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30781758" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -422,44 +429,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionaryprograms/SortDictionaryFrstPrgm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictionaryprograms/AddKeySecondPrgm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalendarFifthPrgm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictionaryprograms/ConcDicThirdPrgm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythondatastructure/dictionaryprograms/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictionaryprograms/DicFifthPrgm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionaryprograms/SortDictionaryFrstPrgm.py" />
+    <entry file="file://$PROJECT_DIR$/dictionaryprograms/AddKeySecondPrgm.py" />
+    <entry file="file://$PROJECT_DIR$/dictionaryprograms/ConcDicThirdPrgm.py" />
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/dictionaryprograms/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/dictionaryprograms/DicFifthPrgm.py" />
     <entry file="file://$PROJECT_DIR$/pythondatastructure/arrayprograms/ArrayFirstPrgm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -471,13 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythondatastructure/dictionaryprograms/AddKeySecondPrgm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -516,17 +483,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythondatastructure/setprograms/CreateSetFrstPrgm.py">
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/setprograms/SixSevenEightNinePrgms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" lean-forward="true" selection-start-column="14" selection-end-column="42" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythondatastructure/setprograms/SixSevenEightNinePrgms.py">
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/dictionaryprograms/AddKeySecondPrgm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="82" selection-start-column="82" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/setprograms/CreateSetFrstPrgm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalendarFifthPrgm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/listprograms/OneTwoThreeSevenPrgms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/listprograms/FourthPrgm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/listprograms/SixEightPrgms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/listprograms/NineTenPrgms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/stringprograms/SevenPrgm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/stringprograms/EightNineTenPrgms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/stringprograms/ThirdFourthPrgms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythondatastructure/stringprograms/FirstSecondFifthSixthPrgms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

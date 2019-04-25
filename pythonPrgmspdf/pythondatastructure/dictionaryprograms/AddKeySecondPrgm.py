@@ -1,4 +1,5 @@
-mydictionary = {12: "vani", 1: "sreenu", 6: "bunny"}
+mydictionary = {12: "vani", 1: "sreenu", 6: "bunny", "fdgfghgh": "dhjkghj", 67: 98}
+print(mydictionary)
 mydictionary.update({2: "abc"})
 mydictionary.update({"xyz": "dgjhhgj"})
 mydictionary[2] = "fgh"
