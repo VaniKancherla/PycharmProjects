@@ -17,7 +17,6 @@ for i in range(m):
 print("FIRST MATRIX : ")
 for i in range(m):
     for j in range(n):
-        
         print(X[i][j], end=" ")
     print()
 
