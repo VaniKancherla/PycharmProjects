@@ -1,5 +1,5 @@
-m = int(input("ENTER MARTIX ROW SIZE m : "))
-n = int(input("ENTER MARTIX COLUMN SIZE n : "))
+m = int(input("ENTER MATRIX ROW SIZE m : "))
+n = int(input("ENTER MATRIX COLUMN SIZE n : "))
 
 # initializing matrix elements as 0
 X = [[0] * n for j in range(m)]
@@ -20,7 +20,7 @@ for i in range(m):
         print(X[i][j], end=" ")
     print()
 
-# getting input to matrix X
+# getting input to matrix Y
 for i in range(m):
     for j in range(n):
         print('entry in row: ', i + 1, ' column: ', j + 1)

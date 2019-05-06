@@ -5,4 +5,3 @@ for key in sorted(mydictionary.keys()):
 print("Descending Order:")
 for key in sorted(mydictionary.keys(), reverse=True):
     print("%s: %s" % (key, mydictionary[key]))
-
