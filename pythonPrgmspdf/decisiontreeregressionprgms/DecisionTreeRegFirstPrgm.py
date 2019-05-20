@@ -13,7 +13,7 @@ X = dataset.iloc[:, 1:2].values
 y = dataset.iloc[:, 2].values
 
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=1/3)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 # Fitting Decision Tree Regression to the dataset
 from sklearn.tree import DecisionTreeRegressor
@@ -44,10 +44,10 @@ plt.ylabel('Salary')
 plt.show()
 
 # Visualising the Decision Tree Regression Test set
-X_grid_test = np.arange(min(X_test), max(X_test), 0.003)
+X_grid_test = np.arange(min(X_test), max(X_test), 0.01)
 X_grid_test = X_grid_test.reshape((len(X_grid_test), 1))
 plt.scatter(X_test, y_test, color='red')
-plt.plot(X_grid_test, regressor.predict(X_grid_test), color='blue')
+plt.plot(X_grid, regressor.predict(X_grid), color='blue')
 plt.title('Decision Tree Regression')
 plt.xlabel('Level')
 plt.ylabel('Salary')
