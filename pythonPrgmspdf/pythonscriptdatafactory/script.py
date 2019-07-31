@@ -42,29 +42,18 @@ def print_activity_run_details(activity_run):
         print("\tErrors: {}".format(activity_run.error['message']))
 
 
-def main():
+# create the resource group
+def create_resource_group(rg_name, rg_params, credentials, subscription_id):
 
-    # Azure subscription ID
-    subscription_id = '540bcf3e-716f-4ab5-b499-68e5285ea954'
+    # This program creates this resource group.
+    resource_client = ResourceManagementClient(credentials, subscription_id)
+    # # comment out if the resource group already exits
+    resource_client.resource_groups.create_or_update(rg_name, rg_params)
 
-    # This program creates this resource group. If it's an existing resource group, comment out the code that creates the resource group
-    rg_name = 'rg1Sanjana'
+
+def create_data_factory(rg_name, df_name, adf_client):
 
     # The data factory name. It must be globally unique.
-    df_name = 'dfSanjana'
-
-    # Specify your Active Directory client ID, client secret, and tenant ID
-    credentials = ServicePrincipalCredentials(client_id='720226fd-782c-4068-a00c-63f3680dc133', secret='BHJbwrALo9e-Rk/eHNK0@[c5TIs5]?mt', tenant='524b0e96-35a3-46ef-ade3-a76c1936a890')
-    resource_client = ResourceManagementClient(credentials, subscription_id)
-    adf_client = DataFactoryManagementClient(credentials, subscription_id)
-
-    rg_params = {'location': 'eastus2'}
-    df_params = {'location': 'eastus2'}
-
-    # # create the resource group
-    # # comment out if the resource group already exits
-    # resource_client.resource_groups.create_or_update(rg_name, rg_params)
-
     # Create a data factory
     df_resource = Factory(location='eastus2')
     df = adf_client.factories.create_or_update(rg_name, df_name, df_resource)
@@ -73,31 +62,35 @@ def main():
         df = adf_client.factories.get(rg_name, df_name)
         time.sleep(1)
 
-    # Create an Azure Storage linked service
-    ls_name = 'storageLinkedService-Sanjana'
+
+def create_linked_service(ls_name, rg_name, df_name, adf_client):
 
     # Specify the name and key of your Azure Storage account
-    storage_string = SecureString('DefaultEndpointsProtocol=https;AccountName=strsanjana;AccountKey=1bHSpeYu3sah6kf4XsTAaZyirb3Ah2XGafYZmjkq5ykUqjpQp+X8TXQuziwKvGL1sFVoyHqkSdcJtCvc4TZKnQ==')
-
+    storage_string = SecureString(
+        'DefaultEndpointsProtocol=https;AccountName=vanistorageacct;AccountKey=RUK6/w9IYpZpCtAcD+LWNCqfnes+p9rqgJbQcnr/rQdiF6BTvWPUTB9E1jO7Lkyp0dGvr3aWOkC9CMAp2+YIFw==')
     ls_azure_storage = AzureStorageLinkedService(connection_string=storage_string)
     ls = adf_client.linked_services.create_or_update(rg_name, df_name, ls_name, ls_azure_storage)
     print_item(ls)
 
-    # Create an Azure blob dataset (input)
-    ds_name = 'ds_in'
+
+def create_linked_dataset(ds_name, ls_name, rg_name, df_name, dsOut_name, adf_client):
+
+    # Create an Azure blob data set (input)
     ds_ls = LinkedServiceReference(ls_name)
-    blob_path = 'cnt1/input'
+    blob_path = 'blobcontainer/input'
     blob_filename = 'input.txt'
     ds_azure_blob = AzureBlobDataset(ds_ls, folder_path=blob_path, file_name=blob_filename)
     ds = adf_client.datasets.create_or_update(rg_name, df_name, ds_name, ds_azure_blob)
     print_item(ds)
 
     # Create an Azure blob dataset (output)
-    dsOut_name = 'ds_out'
-    output_blobpath = 'cnt1/output'
+    output_blobpath = 'blobcontainer/output'
     dsOut_azure_blob = AzureBlobDataset(ds_ls, folder_path=output_blobpath)
     dsOut = adf_client.datasets.create_or_update(rg_name, df_name, dsOut_name, dsOut_azure_blob)
     print_item(dsOut)
+
+
+def create_copy_activity(ds_name, dsOut_name, rg_name, df_name, p_name, adf_client):
 
     # Create a copy activity
     act_name = 'copyBlobToBlob'
@@ -108,11 +101,13 @@ def main():
     copy_activity = CopyActivity(act_name, inputs=[dsin_ref], outputs=[dsOut_ref], source=blob_source, sink=blob_sink)
 
     # Create a pipeline with the copy activity
-    p_name = 'copyPipeline'
     params_for_pipeline = {}
     p_obj = PipelineResource(activities=[copy_activity], parameters=params_for_pipeline)
     p = adf_client.pipelines.create_or_update(rg_name, df_name, p_name, p_obj)
     print_item(p)
+
+
+def create_monitor_pipeline(rg_name, df_name, p_name, adf_client):
 
     # Create a pipeline run
     run_response = adf_client.pipelines.create_run(rg_name, df_name, p_name, {})
@@ -121,9 +116,38 @@ def main():
     time.sleep(30)
     pipeline_run = adf_client.pipeline_runs.get(rg_name, df_name, run_response.run_id)
     print("\n\tPipeline run status: {}".format(pipeline_run.status))
-    activity_runs_paged = list(adf_client.activity_runs.list_by_pipeline_run(rg_name, df_name, pipeline_run.run_id, datetime.now() - timedelta(1), datetime.now() + timedelta(1)))
+    activity_runs_paged = list(adf_client.activity_runs.list_by_pipeline_run(rg_name, df_name, pipeline_run.run_id,
+                                                                             datetime.now() - timedelta(1),
+                                                                             datetime.now() + timedelta(1)))
     print_activity_run_details(activity_runs_paged[0])
 
 
-# Start the main method
+def main():
+
+
+    rg_name = 'cg1vanirsrg'
+    rg_params = {'location': 'eastus2'}
+    df_name = 'cg1df'
+    # Specify your Active Directory client ID, client secret, and tenant ID
+    credentials = ServicePrincipalCredentials(client_id='50af3e84-daae-4cd6-baca-d9900b9dada2',
+                                              secret='3HmM=M-V]tnyQ.vAhnT9IiSXYLMYTY02',
+                                              tenant='524b0e96-35a3-46ef-ade3-a76c1936a890')
+    # Azure subscription ID
+    subscription_id = '540bcf3e-716f-4ab5-b499-68e5285ea954'
+    # Create an Azure Storage linked service
+    ls_name = 'storageLinkedService-vani'
+    ds_name = 'ds_in'
+    dsOut_name = 'ds_out'
+    p_name = 'copyPipeline'
+    adf_client = DataFactoryManagementClient(credentials, subscription_id)
+
+    # create_resource_group(rg_name, rg_params, credentials, subscription_id)
+    # create_data_factory(rg_name, df_name, adf_client)
+    # create_linked_service(ls_name, rg_name, df_name, adf_client)
+    # create_linked_dataset(ds_name, ls_name, rg_name, df_name, dsOut_name, adf_client)
+    # create_copy_activity(ds_name, dsOut_name, rg_name, df_name, p_name, adf_client)
+    create_monitor_pipeline(rg_name, df_name, p_name, adf_client)
+
+
 main()
+

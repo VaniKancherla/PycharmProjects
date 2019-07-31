@@ -14,6 +14,7 @@ from matplotlib.colors import ListedColormap
 # Importing the data set
 data_set = pd.read_csv('/home/admin1/PycharmProjects/pythonPrgmspdf/logisticregressionprgms/Social_Network_Ads.csv')
 X = data_set.iloc[:, [2, 3]].values
+print(X)
 y = data_set.iloc[:, 4].values
 
 # Splitting the data set into the Training set and Test set
